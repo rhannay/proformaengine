@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "proformaengine"
+version = "0.0.1"
+description = "A Python engine for building and running financial pro forma models â€” coming soon"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Robert Hannay" }]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/rhannay/proformaengine"
